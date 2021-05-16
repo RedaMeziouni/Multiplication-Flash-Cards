@@ -4,7 +4,8 @@
     z-index: 1;
 }
 
-.header .footer {
+.header,
+.footer {
     background: $header-bg;
     color: $header-color;
     font-size: 0.5rem;
@@ -25,7 +26,7 @@
     font-size: 0.6rem;
 }
 
-@include mq(765px) {
+@include mq(768px) {
     .header {
         font-size: 1rem;
     }
