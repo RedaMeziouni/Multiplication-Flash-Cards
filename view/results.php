@@ -2,15 +2,15 @@
     <?php 
         $cards = null;
 
-        for ($i = 1; $i <= 12; $i++) {
+        for ($i = 1; $i <= 10; $i++) {
             $result = $number * $i;
             $cards .= "<div class='card' tabindex='0'
-                        aria-label={$number} Multiplied by {$i} Equals {$result}'>
+                        aria-label='{$number} Multiplied by {$i} Equals {$result}'>
                       <div class='card-front'>
                         {$number} x {$i}
                       </div>
                       <div class='card-back'
-                        aria-label={$number} multiplied by {$i} equals {$result}'> {$result}
+                        aria-label='{$number} multiplied by {$i} equals {$result}'> {$result}
                       </div>
                       </div>"; 
         }
