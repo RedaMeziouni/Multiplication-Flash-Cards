@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+// CSS RAZ
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+html {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: $body-bg;
+    @include flexCenter;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
